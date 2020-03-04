@@ -13,6 +13,8 @@ Blog simples com login e cadastro de usuários e posts sobre tecnologia. A aplic
  - Passport
  - Passport-local (Strategy)
 
+A aplicação é iniciada a partir do "**app.js**", que tem as configurações necessarias para rodar a tudo e as principais rotas usadas.
+
 ## Config
 
 Na pasta "**config**", temos um arquivo chamado **auth.js**, este arquivo utiliza do pacote "**passport**", que basicamente autentica o usuário. Ele busca o usuário no banco de dados, verifica se o usuário existe ou não e caso exista, verifica suas credenciais.  
@@ -50,4 +52,6 @@ Na pasta "**routes**", temos 2 tipos de rotas, uma exclusiva para o *admin* e ou
 
 ## Views
 
+A pasta "**views**" contém basicamente o equivalente ao html, só que são os handlebars.
 
+> Utilizei das partials para poder manter alguns elementos iguais em todas as páginas.
