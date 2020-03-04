@@ -13,7 +13,8 @@ Blog simples com login e cadastro de usuários e posts sobre tecnologia. A aplic
  - Passport
  - Passport-local (Strategy)
 
-A aplicação é iniciada a partir do "**app.js**", que tem as configurações necessarias para rodar a tudo e as principais rotas usadas.
+A aplicação é iniciada a partir do "**app.js**", que tem as configurações necessarias para rodar a tudo e as principais rotas usadas.  
+> Para acessar o /admin, cadastre manualmente um usuário sendo eAdmin = 1.
 
 ## Config
 
